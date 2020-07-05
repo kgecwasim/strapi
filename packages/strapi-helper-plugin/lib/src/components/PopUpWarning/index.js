@@ -76,7 +76,7 @@ function PopUpWarning({
         </StyledHeader>
         <StyledBody>
           <div>
-            <img src={icons[popUpWarningType]} alt="icon" />
+            {/*<img src={icons[popUpWarningType]} alt="icon" />*/}
             <p>
               <FormattedMessage id={content.message || 'components.popUpWarning.message'} />
             </p>
